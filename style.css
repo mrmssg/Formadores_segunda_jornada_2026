@@ -1,10 +1,24 @@
-ul{    
-    list-style-type: none;
-    display:flex;
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
-li{
-    display:inline-block;
-    margin: 0 16px;
-    padding: 24px 0;
-    font-size: 24px;
+
+
+body{
+    background-color: #1F1442;
+    color: #CCCCCC;
+}
+h1{
+    color: #A69E99;
+    font-family: "Black Ops One", system-ui;
+    text-decoration: double;
+    text-align: center;
+}
+a{
+    color: aqua;
+}
+
+a:hover{
+    color: red;
 }
