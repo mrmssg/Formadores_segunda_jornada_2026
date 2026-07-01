@@ -9,12 +9,14 @@ body{
     background-color: #1F1442;
     color: #CCCCCC;
     font-size: 2rem;
+    
 }
 h1{
     color: #A69E99;
     font-family: "Black Ops One", system-ui;
     text-decoration: double;
     text-align: center;
+    text-shadow: 0 0 10px hsl(64, 100%, 50%), 0 0 20px #00ff00;
 }
 a{
     color: rgb(28, 10, 94);
