@@ -8,6 +8,7 @@
 body{
     background-color: #1F1442;
     color: #CCCCCC;
+    font-size: 2rem;
 }
 h1{
     color: #A69E99;
@@ -16,9 +17,31 @@ h1{
     text-align: center;
 }
 a{
-    color: aqua;
+    color: rgb(28, 10, 94);
 }
 
 a:hover{
     color: red;
+}
+
+img{
+    width: 40%;
+  }
+
+ .container{
+  justify-content: space-between;
+  display: flex;
+ }
+
+.container div {
+  background-color: #e6edc9fb;
+  color:#2A3042;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+  border: #c96121 solid 5px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+ 
 }
